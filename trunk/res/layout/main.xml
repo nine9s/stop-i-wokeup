@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+ <TimePicker android:id="@+id/timePicker"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+ <Button android:id="@+id/button_normal"
+            android:text="Set alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+<TextView
+android:id="@+id/question"
+android:layout_width="270px"
+android:layout_height="43px"
+android:text="TextView"
+android:layout_x="32px"
+android:layout_y="39px"
+>
+</TextView>
+<EditText
+android:id="@+id/answer"
+android:layout_width="262px"
+android:layout_height="wrap_content"
+android:text="EditText"
+android:textSize="18sp"
+android:layout_x="28px"
+android:layout_y="103px"
+>
+</EditText>
+<Button android:id="@+id/answerButton"
+            android:text="Answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
